@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="AppTest">
+    <test name="SignInTest">
+        <classes>
+            <class name="org.example.AppTest">
+                <methods>
+                    <include name="testSignInWithValidCredentials"/>
+                    <include name="testSignInWithInvalidPassword"/>
+                    <include name="testSignInWithInvalidEmail"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="CheckoutTest">
+        <classes>
+            <class name="org.example.AppTest">
+                <methods>
+                    <include name="checkoutProduct"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
